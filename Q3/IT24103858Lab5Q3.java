@@ -32,11 +32,11 @@ public class IT24103858Lab5Q3{
             double totalCost = numberOfDays * ROOM_CHARGE_PER_DAY;
             double discountAmount = totalCost * discountRate / 100;
             double finalAmount = totalCost - discountAmount;
-
-            System.out.println("Number of days reserved: " + numberOfDays);
-            System.out.printf("Total cost before discount: Rs %.2f%n", totalCost);
-            System.out.printf("Discount: %d%% (Rs %.2f)%n", discountRate, discountAmount);
-            System.out.printf("Total amount to be paid: Rs %.2f%n", finalAmount);
+          
+           System.out.println("Number of days reserved: " + numberOfDays);
+           System.out.println("Total cost before discount: Rs " + totalCost);
+           System.out.println("Discount: " + discountRate + "% (Rs " + discountAmount + ")");
+           System.out.println("Total amount to be paid: Rs " + finalAmount);
         }
 
     }
